@@ -41,7 +41,7 @@ const customStyles = {
     }
 }
 
-const auth: React.FC = () => {
+const Auth: React.FC = () => {
     Modal.setAppElement("#root");
     const openSignIn = useSelector(selectOpenSignIn);
     const openSignUp = useSelector(selectOpenSignUp);
@@ -272,4 +272,4 @@ const auth: React.FC = () => {
     );
 }
 
-export default auth
+export default Auth
