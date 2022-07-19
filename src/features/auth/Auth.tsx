@@ -29,19 +29,19 @@ import { style } from '@mui/system';
 
 const customStyles = {
     overlay: {
-        backgroundColor: "#777777",
+      backgroundColor: "#777777",
     },
     content: {
-        top: "55%",
-        left: "50%",
-
-        width: 280,
-        height: 350,
-        padding: "50px",
-
-        transform: "translate(-50%, -50%)",
-    }
-}
+      top: "55%",
+      left: "50%",
+  
+      width: 280,
+      height: 350,
+      padding: "50px",
+  
+      transform: "translate(-50%, -50%)",
+    },
+  };
 
 const Auth: React.FC = () => {
     Modal.setAppElement("#root");

@@ -37,6 +37,8 @@ import {
   fetchAsyncGetComments,
 } from "../post/postSlice";
 
+import EditProfile from './EditProfile';
+
 const StyledBadge = withStyles((theme) => ({
   badge: {
     backgroundColor: "#44b700",
@@ -95,6 +97,7 @@ const Core: React.FC = () => {
   return (
     <div>
       <Auth />
+      <EditProfile />
       <div className={styles.core_header}>
         <h1 className={styles.core_title}>SNS clone</h1>
         {profile?.nickName ? (
